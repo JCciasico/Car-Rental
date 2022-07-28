@@ -3,8 +3,8 @@
         <div class="container" id="home">
             <nav class="navbar navbar-expand-lg">
                 <img src="../assets/car-jcc.png" alt="logo image"
-                    style="width: 10em; height: 5em; justify-content: start;">
-
+                    style="width: 9em; height: 5em; justify-content: start;">
+                    
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">

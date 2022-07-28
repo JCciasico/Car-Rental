@@ -34,7 +34,7 @@ export default {
 
 
 .intro-body{
-   padding: 10rem 0;
+   padding: 12rem 0;
 }
 .intro-text{
     color: white;
@@ -90,21 +90,22 @@ h6{
         padding: 7rem 0;
     }
 }
-@media(max-width:500px){
+@media(max-width:600px){
     .intro-text{
         text-align: center;
+        padding: 0 2rem;
     }
     .car-column{
-        padding: 5rem 2rem;
+        padding: 5rem 3rem;
     }
     .intro-btn{
         display: flex;
         justify-content: center;
     }
     .btn-1{
-    padding: 0.5rem;
-    width: 120px;
-    border: none;
+        padding: 0.5rem;
+        width: 120px;
+        border: none;
     }
     .btn-2{
         background-color: #ffbe00;
@@ -113,8 +114,8 @@ h6{
         border: none;
     }
     .intro-body{
-   padding: 5rem 0;
-}
+         padding: 5rem 0;
+    }   
 }
 
 </style>

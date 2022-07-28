@@ -4,19 +4,23 @@
       <NavBar/>
       <Intro/>
     </div>
+    <div class="about-sec">
+      <AboutSection/>
+    </div>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
 import Intro from './components/IntroSection.vue'
+import AboutSection from './components/AboutSection.vue'
 
 export default {
   name: 'App',
   components: {
     NavBar,
-    Intro
-    
+    Intro,
+    AboutSection
 }
 }
 </script>
