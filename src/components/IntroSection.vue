@@ -35,7 +35,7 @@ export default {
 
 .intro-body{
    padding-top: 11rem;
-   padding-bottom: 15rem;
+   padding-bottom: 13rem;
 }
 .intro-text{
     color: white;

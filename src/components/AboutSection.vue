@@ -1,5 +1,5 @@
 <template>
-    <div class="container about-body">
+    <div class="container about-body" id="about">
         <div class="row">
             <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center car-img">
                 <img src="../assets/yellow-lambo.png" class="img car-box" alt="yellow lambo">
