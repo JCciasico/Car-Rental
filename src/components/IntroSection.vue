@@ -4,7 +4,7 @@
         <div class="row p-2">
             <div class="col-lg-5 col-md-12 col-sm-12 intro-column">
                 <div class="intro-text">
-                    <h4 style="color:#ffbe00">Fast and Easy Way to Rent a Car</h4>
+                    <h5 style="color:#ffbe00">Fast and Easy Way to Rent a Car</h5>
                     <h1>Need A Ride? Choose Your Comfortable Car</h1>
                     <h6>There are many variations of passages of Lorem ipsum available
                     but the majority have suffered alteration in some</h6>
@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="col-lg-7 col-md-12 col-sm-12 d-flex align-items-center car-column">
-                <img src="../assets/lamborghini.png" class="img-fluid" alt="lamborghini">
+                <img src="../assets/lamborghini.png" class="img-fluid img" alt="lamborghini">
             </div>
         </div>
     </div>
@@ -29,24 +29,32 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,500&display=swap');
+
 
 .intro-body{
-    padding: 10rem 0;
+   padding: 10rem 0;
 }
 .img{
-    width: 900px;
 }
 .intro-text{
     color: white;
 }
-h4{
+h5{
     margin-bottom: 15px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+
 }
 h1{
     margin-bottom: 25px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 }
 h6{
     margin-bottom: 70px;
+    font-family: 'Poppins', sans-serif;
 }
 .intro-btn{
     display: flex;
@@ -57,11 +65,17 @@ h6{
     width: 150px;
     border: none;
 }
+.btn-1:hover{
+    background-color: #ced6e0;
+}
 .btn-2{
     background-color: #ffbe00;
     padding: 0.7rem;
     width: 150px;
     border: none;
+}
+.btn-2:hover{
+    background-color: #ffa502;
 }
 @media(max-width:991px){
     .intro-text{
