@@ -2,17 +2,20 @@
   <div id="app">
     <div class="intro-section">
       <NavBar/>
+      <Intro/>
     </div>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
+import Intro from './components/IntroSection.vue'
 
 export default {
   name: 'App',
   components: {
     NavBar,
+    Intro
     
 }
 }
@@ -25,7 +28,6 @@ export default {
   box-sizing: border-box;
 }
 .intro-section{
-  height: 100vh;
   background-color: #333333;
 }
 </style>

@@ -66,6 +66,11 @@ a:hover{
     background-color: #ffbe00;
     border-radius: 0px;
 }
+.btn:hover{
+    background-color: white;
+    color: #ffbe00;
+    border: 1px solid #ffbe00;
+}
 span{
     font-size: 0.9rem;
 }
