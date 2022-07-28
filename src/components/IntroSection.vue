@@ -34,7 +34,8 @@ export default {
 
 
 .intro-body{
-   padding: 12rem 0;
+   padding-top: 11rem;
+   padding-bottom: 15rem;
 }
 .intro-text{
     color: white;
@@ -75,6 +76,43 @@ h6{
 .btn-2:hover{
     background-color: #ffa502;
 }
+@media(max-width:1200px){
+    h5{
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.1rem;
+    }
+    h1{
+        margin-bottom: 25px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+    }
+    h6{
+        margin-bottom: 50px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9rem;
+    }
+    .btn-1{
+        padding: 0.5rem;
+        width: 125px;
+        border: none;
+        font-size: 0.8rem;
+    }
+    .btn-2{
+        background-color: #ffbe00;
+        padding: 0.5rem;
+        width: 125px;
+        border: none;
+        font-size: 0.8rem;
+    }
+    
+    .intro-body{
+        padding-top: 9rem;
+        padding-bottom: 11rem;
+    }
+}
 @media(max-width:991px){
     .intro-text{
         text-align: center;
@@ -89,6 +127,7 @@ h6{
     .intro-body{
         padding: 7rem 0;
     }
+    
 }
 @media(max-width:600px){
     .intro-text{

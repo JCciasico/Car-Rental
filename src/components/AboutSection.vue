@@ -1,10 +1,10 @@
 <template>
     <div class="container about-body">
         <div class="row">
-            <div class="col-lg-5 col-md-12 p-5 d-flex justify-content-center align-items-center">
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center car-img">
                 <img src="../assets/yellow-lambo.png" class="img car-box" alt="yellow lambo">
             </div>
-            <div class="col-lg-7 order-md-12 p-5 d-flex align-items-center justify-content-center">
+            <div class="col-lg-6 order-md-12 p-5 d-flex align-items-center justify-content-center">
                 <div class="about-text">
                     <h4>About Our Company</h4>
                     <h2>World Largest automotive marketplace</h2>
@@ -50,6 +50,9 @@ export default {
 .car-box{
     box-shadow: -20px 20px #ffbe00;
 }
+.car-img{
+    padding: 5rem;
+}
 .about-text{
     padding: 0 3rem;
 }
@@ -79,15 +82,60 @@ h5{
     opacity: 0.7;
 }
 .btn{
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: #ffbe00;
     width: 150px;
     border-radius: 0px;
 }
+.btn:hover{
+    background-color: white;
+    color: #ffbe00;
+    border: 1px solid #ffbe00;
+}
 @media(max-width:1200px){
     .img {
-            width: 400px;
-        }
+            width: 325px;
+    }
+    h4{
+        font-family: 'Poppins','sans-serif';
+        font-weight: 600;
+        color: #ffbe00;
+        font-size: 1rem;
+    }
+    h2{
+        font-family: 'Poppins','sans-serif';
+        font-weight: 600;
+        margin: 20px 0;
+        font-size: 1.2rem;
+    }
+    #about-des{
+        font-family: 'Poppins','sans-serif';
+        margin-bottom: 30px;
+        opacity: 0.7;
+        font-size: 0.7rem;
+    }
+    h5{
+        font-family: 'Poppins','sans-serif';
+        font-weight: 600;
+        font-style: italic; 
+        font-size: 0.9rem;
+    }
+    #col-des{
+        font-family: 'Poppins','sans-serif';
+        margin-bottom: 40px;
+        opacity: 0.7;
+        font-size: 0.7rem;
+    }
+    .btn{
+        padding: 0.5rem;
+        background-color: #ffbe00;
+        width: 120px;
+        border-radius: 0px;
+        font-size: 0.8rem;
+    }
+    .about-text{
+        padding: 0 1rem;
+    }
 }
 @media(max-width:600px){
     .img {
