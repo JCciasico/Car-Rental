@@ -4,7 +4,7 @@
         <div class="row p-2">
             <div class="col-lg-5 col-md-12 col-sm-12 intro-column">
                 <div class="intro-text">
-                    <h3 style="color:#ffbe00">Fast and Easy Way to Rent a Car</h3>
+                    <h4 style="color:#ffbe00">Fast and Easy Way to Rent a Car</h4>
                     <h1>Need A Ride? Choose Your Comfortable Car</h1>
                     <h6>There are many variations of passages of Lorem ipsum available
                     but the majority have suffered alteration in some</h6>
@@ -39,7 +39,7 @@ export default {
 .intro-text{
     color: white;
 }
-h3{
+h4{
     margin-bottom: 15px;
 }
 h1{
