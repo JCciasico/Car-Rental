@@ -31,6 +31,9 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
+#app{
+  overflow: hidden;
+}
 .intro-section{
   background-color: #333333;
 }

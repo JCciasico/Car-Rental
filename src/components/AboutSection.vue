@@ -42,13 +42,13 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,500&display=swap');
 
 .about-body{
-    padding: 5rem 0;
+    padding: 3rem 0;
 }
 .img{
     width: 500px;
 }
 .car-box{
-    box-shadow: -30px 30px #ffbe00;
+    box-shadow: -20px 20px #ffbe00;
 }
 .about-text{
     padding: 0 3rem;
@@ -93,5 +93,56 @@ h5{
     .img {
             width: 300px;
         }
+    .about-text{
+        text-align: center;
+    }
+    h4{
+    font-family: 'Poppins','sans-serif';
+    font-weight: 600;
+    color: #ffbe00;
+    font-size: 1rem;
+    }
+    h2{
+        font-family: 'Poppins','sans-serif';
+        font-weight: 600;
+        margin: 20px 0;
+        font-size: 1.2rem;
+    }
+    #about-des{
+        font-family: 'Poppins','sans-serif';
+        margin-bottom: 30px;
+        opacity: 0.7;
+        font-size: 0.7rem;
+    }
+    h5{
+        font-family: 'Poppins','sans-serif';
+        font-weight: 600;
+        font-style: italic; 
+        font-size: 0.9rem;
+    }
+    #col-des{
+        font-family: 'Poppins','sans-serif';
+        margin-bottom: 40px;
+        opacity: 0.7;
+        font-size: 0.7rem;
+    }
+    .btn{
+        padding: 0.5rem;
+        background-color: #ffbe00;
+        width: 120px;
+        border-radius: 0px;
+        font-size: 0.8rem;
+    }
+}
+@media(max-width:400px){
+    .img{
+        width: 250px;
+    }
+    h5{
+        font-family: 'Poppins','sans-serif';
+        font-weight: 600;
+        font-style: italic; 
+        font-size: 0.7rem;
+    }
 }
 </style>

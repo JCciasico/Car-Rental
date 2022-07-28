@@ -104,18 +104,37 @@ h6{
     }
     .btn-1{
         padding: 0.5rem;
-        width: 120px;
+        width: 100px;
         border: none;
+        font-size: 0.8rem;
     }
     .btn-2{
         background-color: #ffbe00;
         padding: 0.5rem;
-        width: 120px;
+        width: 100px;
         border: none;
+        font-size: 0.8rem;
     }
     .intro-body{
          padding: 5rem 0;
     }   
+    h5{
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.9rem;
+    }
+    h1{
+        margin-bottom: 25px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+    }
+    h6{
+        margin-bottom: 50px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.7rem;
+    }
 }
 
 </style>
