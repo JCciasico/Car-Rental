@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="col-lg-7 col-md-12 col-sm-12 d-flex align-items-center car-column">
-                <img src="../assets/lamborghini.png" class="img-fluid img" alt="lamborghini">
+                <img src="../assets/lamborghini.png" class="img-fluid" alt="lamborghini">
             </div>
         </div>
     </div>
@@ -35,8 +35,6 @@ export default {
 
 .intro-body{
    padding: 10rem 0;
-}
-.img{
 }
 .intro-text{
     color: white;
@@ -88,6 +86,9 @@ h6{
         display: flex;
         justify-content: center;
     }
+    .intro-body{
+        padding: 7rem 0;
+    }
 }
 @media(max-width:500px){
     .intro-text{
@@ -111,6 +112,9 @@ h6{
         width: 120px;
         border: none;
     }
+    .intro-body{
+   padding: 5rem 0;
+}
 }
 
 </style>
