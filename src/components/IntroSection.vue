@@ -5,8 +5,7 @@
             <div class="col-lg-5 col-md-12 col-sm-12 intro-column">
                 <div class="intro-text">
                     <h3 style="color:#ffbe00">Fast and Easy Way to Rent a Car</h3>
-                    <h1>Need A Ride? Choose Your<br>
-                    Comfortable Car</h1>
+                    <h1>Need A Ride? Choose Your Comfortable Car</h1>
                     <h6>There are many variations of passages of Lorem ipsum available
                     but the majority have suffered alteration in some</h6>
                 </div>
@@ -54,13 +53,13 @@ h6{
     column-gap: 25px;
 }
 .btn-1{
-    padding: 1rem;
+    padding: 0.7rem;
     width: 150px;
     border: none;
 }
 .btn-2{
     background-color: #ffbe00;
-    padding: 1rem;
+    padding: 0.7rem;
     width: 150px;
     border: none;
 }
@@ -86,6 +85,17 @@ h6{
     .intro-btn{
         display: flex;
         justify-content: center;
+    }
+    .btn-1{
+    padding: 0.5rem;
+    width: 120px;
+    border: none;
+    }
+    .btn-2{
+        background-color: #ffbe00;
+        padding: 0.5rem;
+        width: 120px;
+        border: none;
     }
 }
 

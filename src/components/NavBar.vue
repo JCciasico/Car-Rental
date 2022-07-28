@@ -2,7 +2,6 @@
     <section>
         <div class="container" id="home">
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#"></a>
                 <img src="../assets/car-jcc.png" alt="logo image"
                     style="width: 10em; height: 5em; justify-content: start;">
 
