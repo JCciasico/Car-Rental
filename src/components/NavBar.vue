@@ -1,40 +1,39 @@
 <template>
     <section>
-        <div class="container">
+        <div class="container" id="home">
             <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <img src="../assets/car-jcc.png" alt="logo image"
-                        style="width: 10em; height: 5em; justify-content: start;">
+                <a class="navbar-brand" href="#"></a>
+                <img src="../assets/car-jcc.png" alt="logo image"
+                    style="width: 10em; height: 5em; justify-content: start;">
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span><i class="fas fa-bars" style="color:#fff; font-size:28px;"></i></span>
-                    </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars" style="color:#fff; font-size:28px;"></i></span>
+                </button>
 
-                    <div class="collapse navbar-collapse border" id="navbarNavAltMarkup">
-                        <ul class="container navbar-nav justify-content-center border">
-                            <li class="nav-item">
-                                <a href="#home" class="nav-link text" aria-current="page">HOME</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#about" class="nav-link text" aria-current="page">ABOUT ME</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#skills" class="nav-link text" aria-current="page">SKILLS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#portfolio" class="nav-link text" aria-current="page">PORTFOLIO</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#services" class="nav-link text" aria-current="page">SERVICES</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#contact" class="nav-link text" aria-current="page">CONTACT</a>
-                            </li>
-                        </ul>
-                        <button style="width: 8em; height: 4em;">List a Car</button>
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <ul class="container navbar-nav justify-content-center" style="column-gap:25px">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link text" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text" aria-current="page">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text" aria-current="page">Car Rent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text" aria-current="page">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text" aria-current="page">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text" aria-current="page">Contacts</a>
+                        </li>
+                    </ul>
+                    <button class="btn"><span><i class="fa-solid fa-phone" style="font-size: 1rem;"></i>  09989077822</span></button>
                 </div>
             </nav>
         </div>
@@ -47,5 +46,32 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+a{
+    color: white;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+a:hover{
+    color: #ffdf00 ;
+}
+.btn{
+    width: 10em; 
+    height: 3em;
+    margin-right: -25px;
+    border: none;
+    background-color: #ffbe00;
+    border-radius: 0px;
+}
+span{
+    font-size: 0.9rem;
+}
+@media(max-width:991px){
+    .btn{
+        display: none;
+    }
+}
 </style>

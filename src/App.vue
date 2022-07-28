@@ -26,6 +26,6 @@ export default {
 }
 .intro-section{
   height: 100vh;
-  background-color: #5a5a5a;
+  background-color: #333333;
 }
 </style>
