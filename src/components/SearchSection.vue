@@ -107,7 +107,9 @@
                             </div>
                         </div>
                     </div>
-                    <button class="btn" type="submit">Start Booking</button>
+                    <div id="btn">
+                        <button class="btn" type="submit">Start Booking</button>
+                    </div>
                 </form>
             </div>
         </div>
@@ -296,6 +298,9 @@ label{
         font-style: 'Poppins','sans-serif';
         margin-top: 15px;
         font-size: 0.8rem;
+    }
+    #btn{
+        text-align: center;
     }
 }
 
