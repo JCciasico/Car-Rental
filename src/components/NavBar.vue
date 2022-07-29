@@ -20,7 +20,7 @@
                             <a href="#about" class="nav-link text" aria-current="page">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link text" aria-current="page">Car Rent</a>
+                            <a href="#car-rent" class="nav-link text" aria-current="page">Car Rent</a>
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link text" aria-current="page">Pages</a>

@@ -1,6 +1,6 @@
 <template>
 <section>
-    <div class="container search-section">
+    <div class="container search-section" id="car-rent">
         <div class="row">
             <div class="col-lg-6 col-md-12 d-flex align-items-center search-body">
                 <div class="search-text">
