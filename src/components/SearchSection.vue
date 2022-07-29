@@ -5,7 +5,7 @@
             <div class="col-lg-6 col-md-12 d-flex align-items-center search-body">
                 <div class="search-text">
                     <h4>Search your Car</h4>
-                    <h2>The every ocasion best rental car</h2>
+                    <h2>The every occasion best rental car</h2>
                     <p id="search-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         temporincididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
