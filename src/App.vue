@@ -7,6 +7,9 @@
     <div class="about-sec">
       <AboutSection/>
     </div>
+    <div class="search-section">
+      <SearchSection/>
+    </div>
   </div>
 </template>
 
@@ -14,13 +17,15 @@
 import NavBar from './components/NavBar.vue'
 import Intro from './components/IntroSection.vue'
 import AboutSection from './components/AboutSection.vue'
+import SearchSection from './components/SearchSection.vue'
 
 export default {
   name: 'App',
   components: {
     NavBar,
     Intro,
-    AboutSection
+    AboutSection,
+    SearchSection
 }
 }
 </script>

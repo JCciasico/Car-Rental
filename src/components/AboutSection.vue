@@ -45,13 +45,14 @@ export default {
     padding: 3rem 0;
 }
 .img{
-    width: 500px;
+    width: 525px;
 }
 .car-box{
     box-shadow: -20px 20px #ffbe00;
 }
 .car-img{
     padding: 5rem;
+
 }
 .about-text{
     padding:  0rem;
