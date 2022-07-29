@@ -4,7 +4,7 @@
             <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center car-img">
                 <img src="../assets/yellow-lambo.png" class="img car-box" alt="yellow lambo">
             </div>
-            <div class="col-lg-6 order-md-12 p-5 d-flex align-items-center justify-content-center">
+            <div class="col-lg-6 order-md-12 d-flex align-items-center justify-content-center">
                 <div class="about-text">
                     <h4>About Our Company</h4>
                     <h2>World Largest automotive marketplace</h2>
@@ -54,7 +54,7 @@ export default {
     padding: 5rem;
 }
 .about-text{
-    padding: 0 3rem;
+    padding:  0rem;
 }
 h4{
     font-family: 'Poppins','sans-serif';
