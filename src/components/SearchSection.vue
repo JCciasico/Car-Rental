@@ -20,7 +20,7 @@
             <div class="col-lg-6 col-md-12 form-body">
                 <form class="container-fluid p-5 form-con">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
                             <label for="validationCustom01">Picking up location</label>
                             <div class="d-flex align-items-center input-con">
                                 <input type="text" class="form-control input" placeholder="Your location" required>
@@ -30,7 +30,7 @@
                                 Looks good!
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
                             <label for="validationCustom01">Picking up date</label>
                             <div class="d-flex align-items-center input-con">
                                 <input type="text" class="form-control input" placeholder="dd/mm/yy" required>
@@ -42,7 +42,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
                             <label for="validationCustom01">Picking up time</label>
                             <div class="d-flex align-items-center input-con">
                                 <input type="text" class="form-control input" placeholder="10:00 AM" required>
@@ -52,7 +52,7 @@
                                 Looks good!
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
                             <label for="validationCustom01">Dropping off location</label>
                             <div class="d-flex align-items-center input-con">
                                 <input type="text" class="form-control input" placeholder="Off your location" required>
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
                             <label for="date">Dropping off date</label>
                             <div class="d-flex align-items-center input-con">
                                 <input type="text" class="form-control input" placeholder="dd/mm/yy" required>
@@ -74,7 +74,7 @@
                                 Looks good!
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
                             <label for="validationCustom01">Dropping off time</label>
                             <div class="d-flex align-items-center input-con">
                                 <input type="text" class="form-control input" placeholder="04:00 PM" required>
@@ -86,7 +86,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
                             <label for="validationCustom01">Type of vehicle</label>
                             <div class="d-flex align-items-center input-con">
                                 <input type="text" class="form-control input" placeholder="First name" required>
@@ -96,7 +96,7 @@
                                 Looks good!
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
                             <label for="validationCustom01">Number of passengers</label>
                             <div class="d-flex align-items-center input-con">
                                 <input type="text" class="form-control input" placeholder="First name" required>
@@ -276,16 +276,16 @@ label{
         margin-bottom: 10px;
         font-family: 'Poppins','sans-serif';
         font-weight: 600;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
     .input-con{
         border: 1px solid #ced6e0;
-        padding: 0px 10px;
+        padding: 5px 10px;
         margin-bottom: 25px;
         background: white;
     }
     .input{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     .btn{
         background-color: #ffbe00;
