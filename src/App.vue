@@ -10,6 +10,9 @@
     <div class="search-section">
       <SearchSection/>
     </div>
+    <div class="services-section">
+      <ServicesSection/>
+    </div>
   </div>
 </template>
 
@@ -18,6 +21,7 @@ import NavBar from './components/NavBar.vue'
 import Intro from './components/IntroSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import SearchSection from './components/SearchSection.vue'
+import ServicesSection from './components/ServicesSection.vue'
 
 export default {
   name: 'App',
@@ -25,7 +29,8 @@ export default {
     NavBar,
     Intro,
     AboutSection,
-    SearchSection
+    SearchSection,
+    ServicesSection
 }
 }
 </script>
@@ -41,5 +46,10 @@ export default {
 }
 .intro-section{
   background-color: #333333;
+}
+.services-section{
+  background-image: url(./assets/download.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 </style>
