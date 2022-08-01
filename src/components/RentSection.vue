@@ -222,11 +222,18 @@ h5{
 }
 button{
     background-color: #ffbe00;
+    font-family: 'Poppins','sans-serif';
     padding: 0.5rem;
     width: 125px;
     font-size: 0.8rem;
     border: none;
     margin-top: 30px;
+    font-weight: 600;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid #ffbe00;
 }
 .icon{
     color: #ffbe00;
@@ -243,6 +250,8 @@ button{
 }
 .card{
     margin: 10px 0;
+    background-color: #f1f2f6;
+    border: none;
 }
 
 @media(max-width:1200px){
