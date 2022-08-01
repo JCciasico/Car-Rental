@@ -20,26 +20,26 @@
                                 <span id="services-item">Luxury Limousine Selection</span>
                             </div>
                             <div class="col box">
-                                <i class="fa-solid fa-car icon"></i>
+                                <i class="fa-solid fa-headset icon"></i>
                                 <span id="services-item">24/7 Order Available</span>
                             </div>
                             <div class="col box">
-                                <i class="fa-solid fa-car icon"></i>
+                                <i class="fa-solid fa-clock icon"></i>
                                 <span id="services-item">Fast Car Delivery Services</span>
                             </div>
                         </div>
                         <div class="row text-center">
                             <div class="col box">
-                                <i class="fa-solid fa-car icon"></i>
-                                <span id="services-item">Luxury Limousine Selection</span>
+                                <i class="fa-solid fa-user-shield icon"></i>
+                                <span id="services-item">High Safety and Nurity</span>
                             </div>
                             <div class="col box">
-                                <i class="fa-solid fa-car icon"></i>
-                                <span id="services-item">24/7 Order Available</span>
+                                <i class="fa-solid fa-money-bill-1-wave icon"></i>
+                                <span id="services-item">Fixed Price & Bonus System</span>
                             </div>
                             <div class="col box">
-                                <i class="fa-solid fa-car icon"></i>
-                                <span id="services-item">Fast Car Delivery Services</span>
+                                <i class="fa-solid fa-user-tie icon"></i>
+                                <span id="services-item">Professional Car Driver</span>
                             </div>
                         </div>
                     </div>
@@ -58,15 +58,13 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,500&display=swap');
 
 .services-body{
     padding: 5rem 0;
 }
 .img{
     width: 525px;
-}
-.car-box{
-    
 }
 .car-img{
     padding: 5rem;
@@ -98,6 +96,7 @@ h5{
 }
 #services-item{
     color: white;
+    font-family: 'Poppins','sans-serif';
 }
 .box{
     display: flex;
