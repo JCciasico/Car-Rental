@@ -67,7 +67,7 @@
                             <div class="row box">
                                 <div class="col box-item">
                                      <i class="fa-solid fa-user icon-1"></i>
-                                     <span id="item-details">2 person</span>
+                                     <span id="item-details">4 person</span>
                                 </div>
                             </div>
                             <div class="row">
@@ -226,7 +226,7 @@ button{
     padding: 0.5rem;
     width: 125px;
     font-size: 0.8rem;
-    border: none;
+    border: 1px solid #ffbe00;
     margin-top: 30px;
     font-weight: 600;
 }
