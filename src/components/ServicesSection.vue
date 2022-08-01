@@ -4,17 +4,45 @@
     <div class="container services-body">
         <div class="row">
             <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center car-img">
-                <img src="../assets/2503527.jpg" class="img car-box" alt="yellow lambo">
+                <img src="../assets/ca-cropped.jpg" class="img car-box" alt="yellow lambo">
             </div>
             <div class="col-lg-6 order-md-12 d-flex align-items-center justify-content-center">
-                <div class="about-text">
-                    <h4>About Our Company</h4>
-                    <h2>World Largest automotive marketplace</h2>
-                    <p id="about-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                <div class="service-text">
+                    <h4>Best Services</h4>
+                    <h2>Providing Amazing Services Our Clients</h2>
+                    <p id="service-des">There are many variations of passages of lorem ipsum available, but the majority have suffiered alteration
+                        in some form, by injecting humour, or randomise words.
                     </p>
+                    <div class="box-container">
+                        <div class="row text-center box-item">
+                            <div class="col box">
+                                <i class="fa-solid fa-car icon"></i>
+                                <span id="services-item">Luxury Limousine Selection</span>
+                            </div>
+                            <div class="col box">
+                                <i class="fa-solid fa-car icon"></i>
+                                <span id="services-item">24/7 Order Available</span>
+                            </div>
+                            <div class="col box">
+                                <i class="fa-solid fa-car icon"></i>
+                                <span id="services-item">Fast Car Delivery Services</span>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col box">
+                                <i class="fa-solid fa-car icon"></i>
+                                <span id="services-item">Luxury Limousine Selection</span>
+                            </div>
+                            <div class="col box">
+                                <i class="fa-solid fa-car icon"></i>
+                                <span id="services-item">24/7 Order Available</span>
+                            </div>
+                            <div class="col box">
+                                <i class="fa-solid fa-car icon"></i>
+                                <span id="services-item">Fast Car Delivery Services</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -44,7 +72,7 @@ export default {
     padding: 5rem;
 
 }
-.about-text{
+.service-text{
     padding:  0rem;
 }
 h4{
@@ -56,16 +84,36 @@ h2{
     font-family: 'Poppins','sans-serif';
     font-weight: 600;
     margin: 30px 0;
+    color: white;
 }
-#about-des{
+#service-des{
     font-family: 'Poppins','sans-serif';
     margin-bottom: 30px;
-    opacity: 0.7;
+    color: white;
 }
 h5{
     font-family: 'Poppins','sans-serif';
     font-weight: 600;
     font-style: italic; 
+}
+#services-item{
+    color: white;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 10px;
+}
+.box-container{
+    padding-top: 3rem;
+}
+.box-item{
+    margin-bottom: 30px;
+}
+.icon{
+    color: #ffbe00;
+    font-size: 3em;
 }
 @media(max-width:1200px){
     .img {
@@ -83,10 +131,9 @@ h5{
         margin: 20px 0;
         font-size: 1.2rem;
     }
-    #about-des{
+    #service-des{
         font-family: 'Poppins','sans-serif';
         margin-bottom: 30px;
-        opacity: 0.7;
         font-size: 0.7rem;
     }
     h5{
@@ -95,18 +142,25 @@ h5{
         font-style: italic; 
         font-size: 0.9rem;
     }
-    .about-text{
+    .service-text{
         padding: 0 1rem;
     }
     .services-body{
         padding: 3rem 0;
+    }
+    .icon{
+        color: #ffbe00;
+        font-size: 2em;
+    }
+    #services-item{
+        font-size: 0.7rem;
     }
 }
 @media(max-width:600px){
     .img {
             width: 300px;
         }
-    .about-text{
+    .service-text{
         text-align: center;
     }
     h4{
@@ -121,10 +175,9 @@ h5{
         margin: 20px 0;
         font-size: 1.2rem;
     }
-    #about-des{
+    #service-des{
         font-family: 'Poppins','sans-serif';
         margin-bottom: 30px;
-        opacity: 0.7;
         font-size: 0.7rem;
     }
     h5{
@@ -133,10 +186,11 @@ h5{
         font-style: italic; 
         font-size: 0.9rem;
     }
-    #col-des{
-        font-family: 'Poppins','sans-serif';
-        margin-bottom: 40px;
-        opacity: 0.7;
+    .icon{
+        color: #ffbe00;
+        font-size: 1.75em;
+    }
+    #services-item{
         font-size: 0.7rem;
     }
 }
@@ -148,6 +202,13 @@ h5{
         font-family: 'Poppins','sans-serif';
         font-weight: 600;
         font-style: italic; 
+        font-size: 0.7rem;
+    }
+    .icon{
+        color: #ffbe00;
+        font-size: 1.5em;
+    }
+    #services-item{
         font-size: 0.7rem;
     }
 }

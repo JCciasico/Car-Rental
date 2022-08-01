@@ -51,7 +51,7 @@ export default {
   background-image: url(./assets/download.jfif);
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), 
+  background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.9)), 
 	url("./assets/download.jfif");
 }
 </style>
