@@ -49,7 +49,7 @@
                     <div class="card">
                         <img src="../assets/BMW-i8-Concept.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">BMW Marvelou Luxury Car</h5>
+                            <h5 class="card-title">BMW Luxury Car</h5>
                             <div class="row box">
                                 <div class="col-lg-6 col-md-12">
                                     <i class="fa-solid fa-star icon"></i>
