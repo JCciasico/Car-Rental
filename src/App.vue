@@ -13,6 +13,9 @@
     <div class="services-section">
       <ServicesSection/>
     </div>
+    <div class="rent-section">
+      <RentSection/>
+    </div>
   </div>
 </template>
 
@@ -22,6 +25,7 @@ import Intro from './components/IntroSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import SearchSection from './components/SearchSection.vue'
 import ServicesSection from './components/ServicesSection.vue'
+import RentSection from './components/RentSection.vue'
 
 export default {
   name: 'App',
@@ -30,7 +34,8 @@ export default {
     Intro,
     AboutSection,
     SearchSection,
-    ServicesSection
+    ServicesSection,
+    RentSection
 }
 }
 </script>
