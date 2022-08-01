@@ -20,7 +20,7 @@
             <div class="col text-center">
                 <i class="fa-solid fa-gauge-simple-high icon"></i>
                 <h2 id="counter">12500</h2>
-                <span id="dash-text">Clients Annually</span>
+                <span id="dash-text">Kilometers Daily</span>
             </div>
         </div>
         <div class="row gx-5 box-body">
@@ -179,6 +179,49 @@ h4{
     }
     #dash-text{
         font-size: 0.7rem;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+    .dash-body{
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+
+}
+@media(max-width:400px){
+    .icon-1{
+        display: none;
+    }
+    .text-des{
+        display: none;
+    }
+    .profile-body{
+        padding-bottom: 0rem;
+        padding-left: 0rem;
+        margin-left: -20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .pic{
+        padding: 1rem;
+    }
+    .box-body{
+        padding: 0rem 1.5rem;
+        margin-bottom: 20px;
+    }
+    #counter{
+        font-size: 1rem;
+    }
+    #dash-text{
+        font-size: 0.8rem;
+    }
+    .icon{
+        font-size: 1.5rem;
     }
 
 }

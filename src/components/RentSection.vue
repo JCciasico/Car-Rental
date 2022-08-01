@@ -282,7 +282,7 @@ button:hover{
         margin: 10px 20px;
     }
     .rent-card{
-        padding: 0 0;
+        padding: 2rem 0;
     }
     .rent-body{
         padding: 0;
@@ -290,6 +290,10 @@ button:hover{
     h2{
         padding: 0;
         margin-top: -25px;
+        font-size: 1.2rem;
+    }
+    h4{
+        font-size: 1rem;
     }
 }
 
