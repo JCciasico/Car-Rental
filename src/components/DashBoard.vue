@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="container p-3">
-        <div class="row dash-body">
+        <div class="row dash-body" data-aos="fade-down">
             <div class="col text-center">
                 <i class="fa-solid fa-users icon"></i>
                 <h2 id="counter">42500</h2>
@@ -23,7 +23,7 @@
                 <span id="dash-text">Kilometers Daily</span>
             </div>
         </div>
-        <div class="row gx-5 box-body">
+        <div class="row gx-5 box-body" data-aos="zoom-in">
             <div class="text-center p-4">
                 <h4>Rent a Car</h4>
                 <h2>Choose the Best Rent Car</h2>

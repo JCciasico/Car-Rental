@@ -3,11 +3,11 @@
 <section>
     <div class="container services-body" id="services">
         <div class="row">
-            <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center car-img">
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center car-img" data-aos="zoom-out">
                 <img src="../assets/ca-cropped.jpg" class="img car-box" alt="yellow lambo">
             </div>
             <div class="col-lg-6 order-md-12 d-flex align-items-center justify-content-center">
-                <div class="service-text">
+                <div class="service-text" data-aos="zoom-in">
                     <h4>Best Services</h4>
                     <h2>Providing Amazing Services Our Clients</h2>
                     <p id="service-des">There are many variations of passages of lorem ipsum available, but the majority have suffiered alteration

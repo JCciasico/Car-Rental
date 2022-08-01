@@ -2,10 +2,10 @@
 <section>
     <div class="container about-body" id="about">
         <div class="row">
-            <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center car-img">
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center car-img" data-aos="flip-right">
                 <img src="../assets/yellow-lambo.png" class="img car-box" alt="yellow lambo">
             </div>
-            <div class="col-lg-6 order-md-12 d-flex align-items-center justify-content-center">
+            <div class="col-lg-6 order-md-12 d-flex align-items-center justify-content-center" data-aos="fade-down">
                 <div class="about-text">
                     <h4>About Our Company</h4>
                     <h2>World Largest automotive marketplace</h2>

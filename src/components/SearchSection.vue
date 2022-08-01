@@ -2,7 +2,7 @@
 <section>
     <div class="container search-section" id="car-rent">
         <div class="row">
-            <div class="col-lg-6 col-md-12 d-flex align-items-center search-body">
+            <div class="col-lg-6 col-md-12 d-flex align-items-center search-body" data-aos="fade-down">
                 <div class="search-text">
                     <h4>Search your Car</h4>
                     <h2>The every occasion best rental car</h2>
@@ -17,7 +17,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12 form-body">
+            <div class="col-lg-6 col-md-12 form-body" data-aos="flip-left">
                 <form class="container-fluid form-con">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6">

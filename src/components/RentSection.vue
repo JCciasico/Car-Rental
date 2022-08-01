@@ -7,7 +7,7 @@
             </div>
             <div class="row rent-card">
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                    <div class="card">
+                    <div class="card" data-aos="fade-left">
                         <img src="../assets/aston.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Aston Martin Luxury Cars</h5>
@@ -47,7 +47,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                    <div class="card">
+                    <div class="card" data-aos="fade-right">
                         <img src="../assets/BMW-i8-Concept.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">BMW Luxury Car</h5>
@@ -87,7 +87,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                    <div class="card">
+                    <div class="card" data-aos="fade-left">
                         <img src="../assets/camry.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Toyota Camry</h5>
@@ -127,7 +127,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                    <div class="card">
+                    <div class="card" data-aos="fade-right">
                         <img src="../assets/ferrari-portofino_01.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Ferrari Portofino</h5>
