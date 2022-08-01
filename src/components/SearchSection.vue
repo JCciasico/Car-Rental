@@ -128,6 +128,7 @@ export default {
 
 .search-section{
     padding: 4rem 0;
+    margin-bottom: 30px;
 }
 .search-body {
     padding: 1rem 3rem;
