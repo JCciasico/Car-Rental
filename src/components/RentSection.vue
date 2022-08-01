@@ -68,6 +68,9 @@ export default {
 }
 h4{
     font-family: 'Poppins','sans-serif';
+    padding: 1.5rem 0;
+    font-weight: 600;
+    color: #ffbe00;
 }
 
 </style>
