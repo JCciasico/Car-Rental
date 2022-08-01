@@ -14,12 +14,12 @@
             </div>
             <div class="col text-center">
                 <i class="fa-solid fa-hands-holding-child icon"></i>
-                <h2 id="counter">12500</h2>
+                <h2 id="counter">75670</h2>
                 <span id="dash-text">Clients Annually</span>
             </div>
             <div class="col text-center">
                 <i class="fa-solid fa-gauge-simple-high icon"></i>
-                <h2 id="counter">12500</h2>
+                <h2 id="counter">12400</h2>
                 <span id="dash-text">Kilometers Daily</span>
             </div>
         </div>
