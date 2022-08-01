@@ -86,9 +86,9 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                     <div class="card">
-                        <img src="../assets/2503527.jpg" class="card-img-top" alt="...">
+                        <img src="../assets/camry.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Aston Martin Luxury Cars</h5>
+                            <h5 class="card-title">Toyota Camry</h5>
                             <div class="row box">
                                 <div class="col-lg-6 col-md-12">
                                     <i class="fa-solid fa-star icon"></i>
@@ -98,13 +98,13 @@
                                     <i class="fa-solid fa-star icon"></i>
                                 </div>
                                 <div class="col-lg-6 col-md-12">
-                                    <h6>$40.00 <span id="per-day">/ day</span></h6>
+                                    <h6>$90.00 <span id="per-day">/ day</span></h6>
                                 </div>
                             </div>
                             <div class="row box">
                                 <div class="col box-item">
                                      <i class="fa-solid fa-user icon-1"></i>
-                                     <span>4 person</span>
+                                     <span>6 person</span>
                                 </div>
                             </div>
                             <div class="row">
@@ -125,9 +125,9 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
                     <div class="card">
-                        <img src="../assets/2503527.jpg" class="card-img-top" alt="...">
+                        <img src="../assets/ferrari-portofino_01.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Aston Martin Luxury Cars</h5>
+                            <h5 class="card-title">Ferrari Portofino</h5>
                             <div class="row box">
                                 <div class="col-lg-6 col-md-12">
                                     <i class="fa-solid fa-star icon"></i>
@@ -137,13 +137,13 @@
                                     <i class="fa-solid fa-star icon"></i>
                                 </div>
                                 <div class="col-lg-6 col-md-12">
-                                    <h6>$40.00 <span id="per-day">/ day</span></h6>
+                                    <h6>$99.00 <span id="per-day">/ day</span></h6>
                                 </div>
                             </div>
                             <div class="row box">
                                 <div class="col box-item">
                                      <i class="fa-solid fa-user icon-1"></i>
-                                     <span>4 person</span>
+                                     <span>2 person</span>
                                 </div>
                             </div>
                             <div class="row">
