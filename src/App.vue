@@ -16,6 +16,9 @@
     <div class="rent-section">
       <RentSection/>
     </div>
+    <div class="dashboard-section">
+      <DashBoard/>
+    </div>
   </div>
 </template>
 
@@ -26,6 +29,7 @@ import AboutSection from './components/AboutSection.vue'
 import SearchSection from './components/SearchSection.vue'
 import ServicesSection from './components/ServicesSection.vue'
 import RentSection from './components/RentSection.vue'
+import DashBoard from './components/DashBoard.vue'
 
 export default {
   name: 'App',
@@ -35,7 +39,8 @@ export default {
     AboutSection,
     SearchSection,
     ServicesSection,
-    RentSection
+    RentSection,
+    DashBoard
 }
 }
 </script>
@@ -58,5 +63,12 @@ export default {
   background-size: cover;
   background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.9)), 
 	url("./assets/download.jfif");
+}
+.dashboard-section{
+  background-image: url(./assets/download.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.9)), 
+	url("./assets/lotus.jpg");
 }
 </style>

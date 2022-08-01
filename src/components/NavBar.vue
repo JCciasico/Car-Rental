@@ -23,7 +23,7 @@
                             <a href="#car-rent" class="nav-link text" aria-current="page">Car Rent</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link text" aria-current="page">Pages</a>
+                            <a href="#services" class="nav-link text" aria-current="page">Services</a>
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link text" aria-current="page">Blog</a>

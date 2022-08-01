@@ -1,7 +1,7 @@
 <template>
 
 <section>
-    <div class="container services-body">
+    <div class="container services-body" id="services">
         <div class="row">
             <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center car-img">
                 <img src="../assets/ca-cropped.jpg" class="img car-box" alt="yellow lambo">
