@@ -89,8 +89,8 @@
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <label for="validationCustom01">Type of vehicle</label>
                             <div class="d-flex align-items-center input-con">
-                                <input type="text" class="form-control input" placeholder="First name" required>
-                                <i class="fa-solid fa-location-dot"></i>
+                                <input type="text" class="form-control input" placeholder="Vehicle" required>
+                                <i class="fa-solid fa-car icon"></i>
                             </div>
                             <div class="valid-feedback">
                                 Looks good!
@@ -99,8 +99,8 @@
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <label for="validationCustom01">Number of passengers</label>
                             <div class="d-flex align-items-center input-con">
-                                <input type="text" class="form-control input" placeholder="First name" required>
-                                <i class="fa-solid fa-location-dot"></i>
+                                <input type="text" class="form-control input" placeholder="Passengers" required>
+                                <i class="fa-solid fa-user icon"></i>
                             </div>
                             <div class="valid-feedback">
                                 Looks good!
