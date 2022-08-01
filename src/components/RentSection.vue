@@ -289,6 +289,7 @@ button:hover{
     }
     h2{
         padding: 0;
+        margin-top: -25px;
     }
 }
 
