@@ -19,26 +19,27 @@
                                     <i class="fa-solid fa-star icon"></i>
                                     <i class="fa-solid fa-star icon"></i>
                                 </div>
-                                <div class="col-lg-6 col-md-12">
-                                    <h6>$40.00 <span id="per-day">/ day</span></h6>
+                                <div class="col-lg-6 col-md-12 d-flex align-items-center price-box">
+                                    <span id="price">$40.00</span>
+                                    <span id="per-day">/ day</span>
                                 </div>
                             </div>
                             <div class="row box">
                                 <div class="col box-item">
                                      <i class="fa-solid fa-user icon-1"></i>
-                                     <span>4 person</span>
+                                     <span id="item-details">4 person</span>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col box-item">
                                      <i class="fa-solid fa-car icon-1"></i>
-                                     <span>Auto Transmission</span>
+                                     <span id="item-details">Auto Transmission</span>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col box-item">
                                      <i class="fa-solid fa-gas-pump icon-1"></i>
-                                     <span>Petrol</span>
+                                     <span id="item-details">Petrol</span>
                                 </div>
                             </div>
                             <button>Rent Now</button>
@@ -58,26 +59,27 @@
                                     <i class="fa-solid fa-star icon"></i>
                                     <i class="fa-solid fa-star icon"></i>
                                 </div>
-                                <div class="col-lg-6 col-md-12">
-                                    <h6>$80.00 <span id="per-day">/ day</span></h6>
+                                <div class="col-lg-6 col-md-12  d-flex align-items-center price-box">
+                                    <span id="price">$80.00</span>
+                                    <span id="per-day">/ day</span>
                                 </div>
                             </div>
                             <div class="row box">
                                 <div class="col box-item">
                                      <i class="fa-solid fa-user icon-1"></i>
-                                     <span>2 person</span>
+                                     <span id="item-details">2 person</span>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col box-item">
                                      <i class="fa-solid fa-car icon-1"></i>
-                                     <span>Auto Transmission</span>
+                                     <span id="item-details">Auto Transmission</span>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col box-item">
                                      <i class="fa-solid fa-gas-pump icon-1"></i>
-                                     <span>Petrol</span>
+                                     <span id="item-details">Petrol</span>
                                 </div>
                             </div>
                             <button>Rent Now</button>
@@ -97,26 +99,27 @@
                                     <i class="fa-solid fa-star icon"></i>
                                     <i class="fa-solid fa-star icon"></i>
                                 </div>
-                                <div class="col-lg-6 col-md-12">
-                                    <h6>$90.00 <span id="per-day">/ day</span></h6>
+                                <div class="col-lg-6 col-md-12 d-flex align-items-center price-box">
+                                    <span id="price">$90.00</span>
+                                    <span id="per-day">/ day</span>
                                 </div>
                             </div>
                             <div class="row box">
                                 <div class="col box-item">
                                      <i class="fa-solid fa-user icon-1"></i>
-                                     <span>6 person</span>
+                                     <span id="item-details">6 person</span>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col box-item">
                                      <i class="fa-solid fa-car icon-1"></i>
-                                     <span>Auto Transmission</span>
+                                     <span id="item-details">Auto Transmission</span>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col box-item">
                                      <i class="fa-solid fa-gas-pump icon-1"></i>
-                                     <span>Petrol</span>
+                                     <span id="item-details">Petrol</span>
                                 </div>
                             </div>
                             <button>Rent Now</button>
@@ -136,26 +139,27 @@
                                     <i class="fa-solid fa-star icon"></i>
                                     <i class="fa-solid fa-star icon"></i>
                                 </div>
-                                <div class="col-lg-6 col-md-12">
-                                    <h6>$99.00 <span id="per-day">/ day</span></h6>
+                                <div class="col-lg-6 col-md-12 d-flex align-items-center price-box">
+                                    <span id="price">$99.00</span>
+                                    <span id="per-day">/ day</span>
                                 </div>
                             </div>
                             <div class="row box">
                                 <div class="col box-item">
                                      <i class="fa-solid fa-user icon-1"></i>
-                                     <span>2 person</span>
+                                     <span id="item-details">2 person</span>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col box-item">
                                      <i class="fa-solid fa-car icon-1"></i>
-                                     <span>Auto Transmission</span>
+                                     <span id="item-details">Auto Transmission</span>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col box-item">
                                      <i class="fa-solid fa-gas-pump icon-1"></i>
-                                     <span>Petrol</span>
+                                     <span id="item-details">Petrol</span>
                                 </div>
                             </div>
                             <button>Rent Now</button>
@@ -193,10 +197,15 @@ h2{
     padding: 1rem 0;
     font-weight: 600;
 }
-h6{
+#price{
     font-family: 'Poppins','sans-serif';
     font-weight: 600;
     font-size: 1.2rem;
+}
+h5{
+    font-family: 'Poppins','sans-serif';
+    font-weight: 600;
+    font-size: 1rem;
 }
 #per-day{
     font-weight: lighter;
@@ -209,6 +218,7 @@ h6{
     display: flex;
     align-items: center;
     column-gap: 10px;
+    padding: 0.2rem 1rem;
 }
 button{
     background-color: #ffbe00;
@@ -228,5 +238,49 @@ button{
     height: 200px;
 }
 
+#item-details{
+    font-family:'Poppins','sans-serif';
+}
+.card{
+    margin: 10px 0;
+}
+
+@media(max-width:1200px){
+    h5{
+        font-family: 'Poppins','sans-serif';
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+    #price{
+        font-family: 'Poppins','sans-serif';
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+    .icon{
+        color: #ffbe00;
+        font-size: 0.8em;
+    }
+    #per-day{
+        font-weight: lighter;
+        font-size: 0.7rem;
+    }
+    #item-details{
+        font-size: 0.8rem;
+    }
+}
+@media(max-width:600px){
+    .card{
+        margin: 10px 20px;
+    }
+    .rent-card{
+        padding: 0 0;
+    }
+    .rent-body{
+        padding: 0;
+    }
+    h2{
+        padding: 0;
+    }
+}
 
 </style>
