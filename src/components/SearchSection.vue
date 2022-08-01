@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 form-body">
-                <form class="container-fluid p-5 form-con">
+                <form class="container-fluid form-con">
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6">
                             <label for="validationCustom01">Picking up location</label>
@@ -199,6 +199,7 @@ label{
 .form-con{
     background-color: #f1f2f6;
     box-shadow: 20px 20px #ffbe00;
+    padding: 2rem;
 }
 
 @media(max-width:1200px) {
