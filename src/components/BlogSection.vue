@@ -7,12 +7,12 @@
             </div>
             <div class="row gx-4">
                 <div class="col-lg col-md-6 col-sm-6 col-xs-12 card-container">
-                    <div class="border bg-light">
+                    <div class="border bg-light" data-aos="fade-right">
                         <img src="../assets/londonyellow.jpg" class="card-img-top" alt="">
                         <div class="row icon-header">
                             <div class="col icon-box">
                                 <i class="fa-solid fa-user icon"></i>
-                                <span id="title">By Nouzen</span>
+                                <span id="title">Nouzen</span>
                             </div>
                             <div class="col icon-box">
                                 <i class="fa-solid fa-calendar-days icon"></i>
@@ -29,12 +29,12 @@
                     </div>
                 </div>
                 <div class="col-lg col-md-6 col-sm-6 col-xs-12 card-container">
-                    <div class="border bg-light">
+                    <div class="border bg-light" data-aos="zoom-in">
                         <img src="../assets/snow2.jpg" class="card-img-top" alt="">
                         <div class="row icon-header">
                             <div class="col icon-box">
                                 <i class="fa-solid fa-user icon"></i>
-                                <span id="title">By Nouzen</span>
+                                <span id="title">Nouzen</span>
                             </div>
                             <div class="col icon-box">
                                 <i class="fa-solid fa-calendar-days icon"></i>
@@ -51,12 +51,12 @@
                     </div>
                 </div>
                 <div class="col-lg col-md-6 col-sm-6 col-xs-12 card-container">
-                    <div class="border bg-light">
+                    <div class="border bg-light" data-aos="fade-left">
                         <img src="../assets/vintage.jpg" class="card-img-top" alt="">
                         <div class="row icon-header">
                             <div class="col icon-box">
                                 <i class="fa-solid fa-user icon"></i>
-                                <span id="title">By Nouzen</span>
+                                <span id="title">Nouzen</span>
                             </div>
                             <div class="col icon-box">
                                 <i class="fa-solid fa-calendar-days icon"></i>
@@ -138,6 +138,17 @@ h4{
 @media(max-width:500px){
     #title{
         font-size: 0.8rem;
+    }
+    .card-title{
+        font-size: 1rem;
+    }
+    .card-container{
+        padding: 0 2.5rem;
+    }
+}
+@media(max-width:400px){
+    #title{
+        font-size: 0.6rem;
     }
     .card-title{
         font-size: 1rem;
