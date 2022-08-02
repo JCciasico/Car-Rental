@@ -26,7 +26,7 @@
                             <a href="#services" class="nav-link text" aria-current="page">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link text" aria-current="page">Blog</a>
+                            <a href="#blog" class="nav-link text" aria-current="page">Blog</a>
                         </li>
                         <li class="nav-item">
                             <a href="" class="nav-link text" aria-current="page">Contacts</a>

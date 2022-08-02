@@ -1,6 +1,6 @@
 <template>
     <section>
-        <div class="container blog-body">
+        <div class="container blog-body" id="blog">
             <div class="text-center">
                 <h4>Blog & News</h4>
                 <h2>Our Blog Content</h2>
