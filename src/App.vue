@@ -19,6 +19,9 @@
     <div class="dashboard-section">
       <DashBoard/>
     </div>
+    <div class="blog-section">
+      <BlogSection/>
+    </div>
   </div>
 </template>
 
@@ -30,6 +33,7 @@ import SearchSection from './components/SearchSection.vue'
 import ServicesSection from './components/ServicesSection.vue'
 import RentSection from './components/RentSection.vue'
 import DashBoard from './components/DashBoard.vue'
+import BlogSection from './components/BlogSection.vue'
 
 export default {
   name: 'App',
@@ -40,7 +44,8 @@ export default {
     SearchSection,
     ServicesSection,
     RentSection,
-    DashBoard
+    DashBoard,
+    BlogSection
 }
 }
 </script>
