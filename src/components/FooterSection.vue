@@ -2,17 +2,39 @@
   <section>
     <div class="container subs-body">
         <div class="row input-content">
-            <div class="col-3 sign-cont">
+            <div class="col-lg-3 col-md-6 sign-cont">
                 <i class="fa-solid fa-envelope-open-text icon"></i>
                 <span id="signup-text">Sign Up Newsletter</span>
             </div>
-            <div class="col-3 sign-des">
+            <div class="col-lg-3 col-md-6 sign-des">
                 <span>Subscribe to the weekly newsletter for all the latest updates</span>
             </div>
-            <div class="col-6 subs-cont">
+            <div class="col-lg-6 col-md-12 subs-cont">
                 <input type="text" name="text" class="text" placeholder="Enter your email address here">
                 <button>Subscribe</button>
             </div>
+        </div>
+        <div class="row">
+            <div class="col social-con">
+                <img src="../assets/car-jcc.png" alt="jcc logo" class="image">
+                <p id="social-text">There are many variations of passages of Lorem ipsum available
+                    but the majority have suffered alteration in some for by injected humour</p>
+                <div class="social-icon">
+                    <div class="box">
+                        <i class="fa-brands fa-facebook-f icon-1"></i>
+                    </div>
+                    <div class="box">
+                        <i class="fa-brands fa-twitter icon-1"></i>
+                    </div>
+                    <div class="box">
+                        <i class="fa-brands fa-google icon-1"></i>
+                    </div>
+                    <div class="box">
+                        <i class="fa-brands fa-instagram icon-1"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
         </div>
     </div>
   </section>
@@ -82,5 +104,43 @@ button:hover{
     background-color: white;
     border: 1px solid #ffbe00;
     cursor: pointer;
+}
+.image{
+    width: 100px;
+    height: 60px;
+}
+.social-con{
+    padding: 3rem 1rem;
+    color: white;
+}
+#social-text{
+    padding: 0 1rem;
+    padding-top: 1rem;
+}
+.social-icon{
+    padding: 0.3rem 1rem;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.box{
+    background-color: #808080;
+    padding: 0.5rem 0;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box:hover{
+    cursor: pointer;
+    color: #ffbe00;
+}
+.icon-1{
+    font-size: 0.9rem;
+}
+@media (max-width:600px) {
+   .sign-cont{
+    border: none;
+   }
 }
 </style>
