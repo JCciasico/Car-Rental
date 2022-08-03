@@ -25,4 +25,9 @@ export default {
     color: white;
     font-family: 'Poppins','sans-serif';
 }
+@media(max-width:500px){
+    .credit-des{
+        text-align: center;
+    }
+}
 </style>

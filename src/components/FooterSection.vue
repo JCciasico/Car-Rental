@@ -15,7 +15,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col social-con">
+            <div class="col-lg-6 col-md-6 col-sm-12 social-con">
                 <img src="../assets/car-jcc.png" alt="jcc logo" class="image">
                 <p id="social-text">There are many variations of passages of Lorem ipsum available
                     but the majority have suffered alteration in some for by injected humour</p>
@@ -34,7 +34,23 @@
                     </div>
                 </div>
             </div>
-            <div class="col"></div>
+            <div class="col-lg-6 col-md-6 col-sm-12 contact-con">
+                <h6>Contact Us</h6>
+                <ul class="contact-list">
+                    <li>
+                        <i class="fa-solid fa-location-dot icon-2"></i>&nbsp;&nbsp;&nbsp;Cavite, Philippines
+                    </li>
+                    <li>
+                        <i class="fa-regular fa-envelope-open icon-2"></i>&nbsp;&nbsp;&nbsp;Email: name@yourmail.com
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone icon-2"></i>&nbsp;&nbsp;&nbsp;Phone: (+63) 9876543210
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-headset icon-2"></i>&nbsp;&nbsp;&nbsp; +15 123 456
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
   </section>
@@ -138,9 +154,36 @@ button:hover{
 .icon-1{
     font-size: 0.9rem;
 }
+.contact-con{
+    padding: 3rem 1rem;
+    color: white;
+}
+h6{
+    color: #ffbe00;
+    font-family: 'Poppins','sans-serif';
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+}
+.contact-list{
+    list-style-type: none;
+    line-height: 30px;
+}
+
 @media (max-width:600px) {
    .sign-cont{
     border: none;
    }
+   .social-con{
+        padding: 3rem 1rem;
+        color: white;
+        text-align: center;
+    }
+    .social-icon{
+        padding: 0.3rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 10px;
+    }
 }
 </style>
