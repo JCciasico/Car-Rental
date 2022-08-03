@@ -4,6 +4,7 @@
         <div class="row">
             <div class="col-12 credit-des">
                 <span>Developed by JCC</span>
+                &nbsp;<i class="fa-brands fa-github icon"></i>
             </div>
 
         </div>
@@ -24,10 +25,21 @@ export default {
     padding: 0.7rem;
     color: white;
     font-family: 'Poppins','sans-serif';
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+span{
+    margin-top: 5px;
+}
+.icon{
+    font-size: 1.5rem;
 }
 @media(max-width:500px){
     .credit-des{
-        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 </style>
