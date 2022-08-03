@@ -22,6 +22,9 @@
     <div class="blog-section">
       <BlogSection/>
     </div>
+    <div class="footer-section">
+      <FooterSection/>
+    </div>
   </div>
 </template>
 
@@ -34,6 +37,7 @@ import ServicesSection from './components/ServicesSection.vue'
 import RentSection from './components/RentSection.vue'
 import DashBoard from './components/DashBoard.vue'
 import BlogSection from './components/BlogSection.vue'
+import FooterSection from './components/FooterSection.vue'
 
 export default {
   name: 'App',
@@ -45,7 +49,8 @@ export default {
     ServicesSection,
     RentSection,
     DashBoard,
-    BlogSection
+    BlogSection,
+    FooterSection
 }
 }
 </script>
@@ -75,5 +80,8 @@ export default {
   background-size: cover;
   background: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.9)), 
 	url("./assets/lotus.jpg");
+}
+.footer-section{
+  background-color: #333333;
 }
 </style>
