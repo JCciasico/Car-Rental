@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container">
+    <div class="container subs-body">
         <div class="row input-content">
             <div class="col-3 sign-cont">
                 <i class="fa-solid fa-envelope-open-text icon"></i>
@@ -34,6 +34,9 @@ export default {
     column-gap: 20px;
     padding: 1rem;
     border-right: 2px solid #ffbe00 ;
+}
+.subs-body{
+    padding-bottom: 1rem;
 }
 .icon{
     color: #ffbe00;

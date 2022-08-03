@@ -194,7 +194,6 @@ h4{
 }
 h2{
     font-family: 'Poppins','sans-serif';
-    padding: 1rem 0;
     font-weight: 600;
 }
 #price{

@@ -25,6 +25,9 @@
     <div class="footer-section">
       <FooterSection/>
     </div>
+    <div class="credit-section">
+      <CreditSection/>
+    </div>
   </div>
 </template>
 
@@ -38,6 +41,7 @@ import RentSection from './components/RentSection.vue'
 import DashBoard from './components/DashBoard.vue'
 import BlogSection from './components/BlogSection.vue'
 import FooterSection from './components/FooterSection.vue'
+import CreditSection from './components/CreditSection.vue'
 
 export default {
   name: 'App',
@@ -50,7 +54,8 @@ export default {
     RentSection,
     DashBoard,
     BlogSection,
-    FooterSection
+    FooterSection,
+    CreditSection
 }
 }
 </script>
@@ -83,5 +88,8 @@ export default {
 }
 .footer-section{
   background-color: #333333;
+}
+.credit-section{
+  background-color: #ffbe00;
 }
 </style>
